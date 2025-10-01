@@ -10,6 +10,27 @@ body{
     border: 5px solid whitesmoke;
 }
 
+.discount{
+
+    display: flex;
+    /* justify-content: center; */
+    background-color: green;
+    border: 7px solid red;
+    box-shadow: 10px 10px 1px purple;
+    width: 400px;
+    padding: 10px 20px;
+    border-radius: 20px;
+
+    position: fixed;
+    top: 50px;
+    left: 250px;
+}
+
+
+
+
+
+
 .main1{
     display: flex;
     justify-content: center;
@@ -82,4 +103,89 @@ body{
     font-style: italic;
     text-shadow: 2px 1px 2px purple;
     
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+form label{
+      color: purple;
+    font-style: italic;
+    text-shadow: 2px 1px 2px purple;
+}
+
+form button{
+    background-color: red;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main3{
+
+    border: 7px solid purple;
+    background-color: green;
+    width: 60%;
+    margin-top: 10px;
+    height: 55vh;
+}
+
+.main3 h3{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.main3 section:nth-child(2){
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+
+}
+
+.card3{
+
+    background-color: yellow;
+    /* padding: 70px 30px; */
+    padding: 0px 20px 20px 20px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+    
+}
+
+.card3 h3,p{
+    font-style: italic;
+}
+
+main section:nth-child(3){
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    margin-top: 20px;
 }
